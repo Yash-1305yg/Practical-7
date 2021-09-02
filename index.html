@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=.con, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{padding:0 ;margin: 0; box-sizing: border-box;}
+
+        .container
+        {
+            width: 1200px;
+            margin: auto;
+        }
+        .header
+        {
+            width: 100%;
+            height: 70px;
+            background-color: grey;
+            margin-bottom: 10px;
+            text-align: center;
+            padding-top: 25px;
+            
+            color: white;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .content
+        {
+            height: 420px;
+            margin-bottom: 10px;
+            width:100%;
+            
+        }
+        .content::after
+        {
+            content: '';
+            display: block;
+            clear: both;
+
+        }
+        .banner
+        {
+            width: 100%;
+            height: 600px;
+            background-color: skyblue;
+            margin-bottom: 2    0px;
+            text-align: center;
+            padding: 300px;
+            color: white;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .sec1
+        {
+            width: 100%;
+            height: 300px;
+            display: flex;
+            text-align: center;
+            display: inline-block;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .p1
+        {
+            width:22%;
+            height: 250px ;
+            border-radius: 50%;
+            background-color:orange;
+            float: left;
+            margin-left: 25px;
+        }
+        .sec2
+        {
+            width: 100%;
+            height: 500px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 10px;
+        }
+        .left
+        {   width: 48%;
+            height: 80%;
+            margin-right: 4%;
+            float: left;
+            text-align: center;
+            
+        }
+        .right
+        {
+            width: 48%;
+            height: 80%;
+            
+            float: right;
+            text-align: center;
+        }
+        .a1
+        {
+            width: 100%;
+            height: 28%;
+            margin-bottom: 5.8%;
+            background-color: coral;
+            text-align: center;
+            padding-top: 7%;
+            color: white;
+        }
+        .maincontent
+        {
+            width: 100%;
+            height: 400px;
+            background-color:grey;
+            margin-bottom: 10px;
+            text-align: center;
+            padding: 200px;
+            color: white;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .sec3
+        {
+            width: 100%;
+            height: 350px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 10px;
+        }
+        .s1
+        {
+            width:22%;
+            height: 330px ;
+            
+            background-color:red;
+            float: left;
+            margin-left: 25px;
+            margin-bottom: 20px;
+        }
+        .sec4
+        {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .footer
+        {
+            width: 100%;
+            height: 70px;
+            background-color: plum;
+            margin-top: 10px;
+            text-align: center;
+            padding-top: 30px;
+            color: white;
+            font-size: larger;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            Header
+        </div>
+        <div class="content">
+           <div class="banner">
+               Banner
+           </div>
+           <div class="sec1">
+               <h2 style="margin-bottom: 20px;">Section-1</h2>
+               <div class="p1"></div>
+               <div class="p1"></div>
+               <div class="p1"></div>
+               <div class="p1"></div>
+           </div>
+           <div class="sec2">
+            <h2 style="margin-bottom: 20px;">Section-2</h2>
+               <div class="left">
+                   <div class="maincontent">
+                    Main Content
+                   </div>
+               </div>
+               <div class="right">
+                   <div class="a1">
+                       Artical-1
+                   </div>
+                   <div class="a1">
+                       Artical-2
+                   </div>
+                   <div class="a1">
+                       Artical-3
+                   </div>
+               </div>
+           </div>
+           <div class="sec3">
+            <h2 style="margin-bottom: 20px;">Section-3</h2>
+               <div class="s1"></div>
+               <div class="s1"></div>
+               <div class="s1"></div>
+               <div class="s1"></div>
+           </div>
+           <div class="sec4">
+            <h2 style="margin-bottom: 20px;">Section-4</h2>
+            <div class="footer">Footer</div>
+           </div>
+        </div>
+    </div>
+</body>
+</html>
